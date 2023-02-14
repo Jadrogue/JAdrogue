@@ -29,10 +29,9 @@ body {
  
 
   
-  @media only screen and (min-width: 300px) {
-    /* For tablets: */
+  
     .column {
-      float: left;
+      
       width: 100%; 
     }
    
