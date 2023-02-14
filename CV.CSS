@@ -45,3 +45,11 @@ body {
     }
    
   }
+ @media only screen and (min-width: 100px) {
+    /* For tablets: */
+    .title {
+      float: left;
+      width: 80%; 
+    }
+   
+  }
