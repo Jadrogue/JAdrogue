@@ -57,3 +57,11 @@ body {
     }
    
   }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .title {
+      float: left;
+      width: 100%;
+    }
+   
+  }
