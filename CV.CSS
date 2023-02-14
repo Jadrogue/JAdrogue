@@ -27,12 +27,7 @@ body {
     background-color: aliceblue;
   font-size: bold;}
  
- @media only screen and (max-width: 300px) {
-  /* For mobile phones: */
-  .column {
-    width: 100%;
-  }
-}
+
   
   @media only screen and (min-width: 500px) {
     /* For tablets: */
