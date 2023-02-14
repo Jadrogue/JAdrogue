@@ -1,0 +1,48 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: rgb(31, 28, 28);
+    text-align: center;
+  }
+  h2{
+    color: rgb(31, 28, 28);
+    text-align: center;
+  }
+  
+  .newspaper {
+    column-count: 2;
+    column-gap: 40px;
+  }
+  p {
+    font-family: verdana;
+    font-size: 15px;
+  }
+  fieldset {
+    background-color: rgb(110, 214, 248);
+    border: 0cap;
+  }
+  legend{color: rgb(4, 10, 34);
+    background-color: aliceblue;
+  font-size: bold;}
+ 
+ 
+  
+  @media only screen and (min-width: 500px) {
+    /* For tablets: */
+    .column {
+      float: left;
+      width: 100%; 
+    }
+   
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .column {
+      float: left;
+      width: 33.33%;
+    }
+   
+  }
