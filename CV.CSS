@@ -63,3 +63,9 @@ body {
     }
    
   }
+#Foto_Perfil{
+  width:180px;
+   height:200px;
+    
+   vertical-align: text-top;
+}
